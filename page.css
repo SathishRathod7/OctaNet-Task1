@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('cricket-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+header {
+    background-color:#180161;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #ffcc00;
+    font-size: 36px;
+    margin: 0;
+}
+
+.match-info {
+    text-align: center;
+    margin: 20px auto;
+    background-color:#B8001F;
+    padding: 20px;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.match-info h2 {
+    font-size: 28px;
+}
+
+.score-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    background-color: #7695FF;
+    padding: 20px;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.team-score {
+    background-color: #9DBDFF;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.team-score h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.team-score .score {
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+.team-score .overs {
+    font-size: 16px;
+    color: #ddd;
+}
+
+.vs {
+    font-size: 24px;
+    color: #ffcc00;
+    margin: 0 20px;
+}
+
+.current-players {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.batsmen-on-crease, .bowler-spell {
+    background-color: #FFAD60;
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%;
+    text-align: center;
+}
+
+.batsmen-on-crease h3, .bowler-spell h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.batsmen-on-crease ul, .bowler-spell ul {
+    list-style-type: none;
+}
+
+.batsmen-on-crease li, .bowler-spell li {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.match-highlights {
+    background-color: rgba(25, 15, 227, 0.7);
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.match-highlights h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: rgba(126, 13, 202, 0.8);
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    color: #ffcc00;
+}
+.team-squad-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.team-squad {
+    background-color: #37B7C3;
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%;
+    text-align: center;
+}
+
+.team-squad h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.team-squad ul {
+    list-style-type: none;
+}
+
+.team-squad li {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
